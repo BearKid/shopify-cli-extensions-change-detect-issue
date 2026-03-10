@@ -70,5 +70,6 @@
   "overrides": {
     "p-map": "^4.0.0"
   },
+  "packageManager": "pnpm@9.x",
   "author": "luweibiao"
 }
