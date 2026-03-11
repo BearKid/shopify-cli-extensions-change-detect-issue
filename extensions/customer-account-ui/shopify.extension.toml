@@ -28,3 +28,33 @@ api_access = true
 # JavaScript `fetch()` API. Learn more:
 # https://shopify.dev/docs/api/customer-account-ui-extensions/unstable/configuration#network-access
 # network_access = true
+
+[[extensions]]
+name = "customer-account-ui-p1"
+handle = "customer-account-ui-p1"
+type = "ui_extension"
+uid = "9ebaa5f0-a0d8-25bf-6290-c55f579e4dfac7c7fcp1"
+
+  [[extensions.targeting]]
+  module = "./src/CustomerAccountPage1.jsx"
+  target = "customer-account.page.render"
+
+[[extensions]]
+name = "customer-account-ui-p2"
+handle = "customer-account-ui-p2"
+type = "ui_extension"
+uid = "9ebaa5f0-a0d8-25bf-6290-c55f579e4dfac7c7fcp2"
+
+  [[extensions.targeting]]
+  module = "./src/CustomerAccountPage2.jsx"
+  target = "customer-account.page.render"
+
+[[extensions]]
+name = "customer-account-ui-p3"
+handle = "customer-account-ui-p3"
+type = "ui_extension"
+uid = "9ebaa5f0-a0d8-25bf-6290-c55f579e4dfac7c7fcp3"
+
+  [[extensions.targeting]]
+  module = "./src/CustomerAccountPage3.jsx"
+  target = "customer-account.page.render"
