@@ -1,16 +1,13 @@
-import '@shopify/ui-extensions/preact';
-import {render} from "preact";
+import "@shopify/ui-extensions/preact";
+import { render } from "preact";
+import { HorizontalScrollBoxBug } from "./bug_horizontal_scroll_box/HorizontalScrollBoxBug.jsx";
 
 export default async () => {
-  render(<Extension />, document.body)
-}
+  render(<Extension />, document.body);
+};
 
 function Extension() {
   return (
-    <s-banner>
-      <s-text>
-        Hello Page 3
-      </s-text>
-    </s-banner>
+    <HorizontalScrollBoxBug />
   );
 }
